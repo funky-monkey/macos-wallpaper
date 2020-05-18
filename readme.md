@@ -103,11 +103,13 @@ $ wallpaper get
 
 ### Install
 
-Swift Package Manager:
+Add the following to `Package.swift`:
 
 ```swift
 .package(url: "https://github.com/sindresorhus/macos-wallpaper", from: "2.1.0")
 ```
+
+[Or add the package in Xcode.](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app)
 
 ### Usage
 
